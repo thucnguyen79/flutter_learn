@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
@@ -13,13 +14,21 @@ class StartScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            'assets/images/quiz-logo.png',
+            'assets/images/twogirls.png',
             width: 300,
-            color: const Color.fromARGB(150, 255, 255, 255),
+            // color: Color.fromARGB(116, 255, 255, 255),
+          ),
+          Positioned.fill(
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 1, sigmaY: 1),
+              child: Container(
+                color: Colors.black.withOpacity(0.1),
+              ),
+            ),
           ),
           const SizedBox(height: 80),
           Text(
-            'Learn Flutter the fun way!',
+            'Tìm hiểu gia đình bạn!',
             style: GoogleFonts.lato(
               color: const Color.fromARGB(255, 237, 223, 252),
               fontSize: 24,
@@ -32,7 +41,7 @@ class StartScreen extends StatelessWidget {
               foregroundColor: Colors.white,
             ),
             icon: const Icon(Icons.arrow_right_alt),
-            label: const Text('Start Quiz'),
+            label: const Text('Bắt đầu thôi!'),
           )
         ],
       ),

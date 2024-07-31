@@ -2,54 +2,93 @@ import 'package:first_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Bé Mi sinh ngày mấy?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
-    ],
-  ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      '26/4/2014',
+      '15/5/2013',
+      '10/6/2015',
+      '22/7/2012',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Bé Mi cao bao nhiêu?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      '1m4',
+      '1m5',
+      '1m6',
+      '1m7',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'Bé Mi ngủ có chảy nước miếng không?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Có',
+      'Không',
+      'Hồi nhỏ có, bây giờ không',
+      'Hồi nhỏ không, bây giờ có',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Bé Na sinh ngày mấy?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      '31/1/2012',
+      '20/2/2011',
+      '15/3/2013',
+      '5/4/2010',
+    ],
+  ),
+  QuizQuestion(
+    'Bé Na cao bao nhiêu?',
+    [
+      '1m65',
+      '1m60',
+      '1m70',
+      '1m55',
+    ],
+  ),
+  QuizQuestion(
+    'Bé Na đã đi học chưa?',
+    [
+      'Có',
+      'Chưa',
+      'Sắp đi học',
+      'Đang xem xét',
+    ],
+  ),
+  QuizQuestion(
+    'Cô giáo dạy tiếng Anh cho Na và Mi tên gì?',
+    [
+      'Rose',
+      'Lily',
+      'Sophie',
+      'Emma',
+    ],
+  ),
+  QuizQuestion(
+    'Ai là người chơi điện thoại nhiều nhất trong nhà?',
+    [
+      'Bé Na',
+      'Bé Mi',
+      'Bà ngoại',
+      'Út Nhi',
+    ],
+  ),
+  QuizQuestion(
+    'Na thích ăn trái cây gì?',
+    [
+      'Táo',
+      'Chuối',
+      'Cam',
+      'Nho',
+    ],
+  ),
+  QuizQuestion(
+    'Mi đang học môn thể thao nào?',
+    [
+      'Cầu lông',
+      'Bơi lội',
+      'Bóng đá',
+      'Nhảy dây',
     ],
   ),
 ];
